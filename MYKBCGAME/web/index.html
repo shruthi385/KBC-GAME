@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KBC Game</title>
+    <link rel="stylesheet" href="KBCstyle.css">
+</head>
+<body>
+    <div class="container">
+        <h1>WELCOME TO KBC GAME!</h1>
+        <img src="image/kbc.jpg" class="img" alt="alt"/> <br>
+        <form action="KBCGameServlet" method="post">
+            <div class="question">
+                <h2 id="question"><u>Question 1:</u> What is the main advantage of using a three-tier architecture for web applications?</h2>
+            </div>
+            <div class="options">
+                <div class="option-row">
+                    <button type="submit" name="option" value="0" class="option-btn">Better scalability</button>
+                    <button type="submit" name="option" value="1" class="option-btn">Enhanced security</button>
+                </div>
+                <div class="option-row">
+                    <button type="submit" name="option" value="2" class="option-btn">Faster load times</button>
+                    <button type="submit" name="option" value="3" class="option-btn">Simpler development process</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

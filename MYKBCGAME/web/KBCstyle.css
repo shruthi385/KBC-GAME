@@ -1,0 +1,164 @@
+body{
+    background:  url('image/stagebg.png') no-repeat fixed center;
+    
+   
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+h1{
+    color:white;
+    width:40%;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    border-radius: 50px;
+    opacity: 0.8;
+     background: url('image/bluebg.jpg') ;
+    background-size: cover;
+     border: 3px solid silver;
+
+   
+    
+
+}
+.img{
+    box-shadow: 0 0 20px aqua;
+    width: 200px ;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.question {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: url('image/bluebg.jpg') ;
+    background-size: cover;
+    height:15vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    border-radius:50px;
+    border: 3px solid silver;
+    box-shadow: 0 0 20px aqua;
+    font-family: cursive;
+    font-weight: bold;
+    
+
+
+}
+
+.option-row {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.options{
+    background: url('image/bluebg.jpg') ;
+    background-size: cover;    
+    height: 25vh;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 400px; 
+    border: 3px solid silver;
+    box-shadow: 0 0 20px aqua;
+}
+.option-btn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px; /* Adjust margin between buttons */
+    background-color:royalblue;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0 0 10px white;
+    border: 3px solid silver;
+    font-family: cursive;
+    font-weight: bold;
+    
+}
+
+.option-btn:hover {
+    background-color: darkblue;
+}
+
+.points {
+    display: flex;
+    align-items: center;
+    color:white;    
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.points img {
+    width: 70px; /* Adjust the width of the coin image as needed */
+    margin-right: 5px;
+    height:50px;
+}
+
+.points span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 5px aqua;
+}
+
+.popup-.content {
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.gameover{
+    margin-top: 20%;
+    margin-left: 20%;
+    background: url('image/bluebg.jpg') ;
+    background-size: cover;
+    height:15vh;
+    width:60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    border-radius:50px;
+    border: 3px solid silver;
+    box-shadow: 0 0 20px aqua;
+    font-family: cursive;
+    font-weight: bold;
+    
+
+}
